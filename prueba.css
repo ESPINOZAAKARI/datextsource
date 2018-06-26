@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body {
+background-image: url('banderas.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%  100%
+}  
+
+
+div#general{
+margin:auto;
+margin-top:50px;
+
+width:960px;
+height:900px;
+background-color:white;
+}
+
+.navegacion{
+	
+	width:960px;
+	margin:30px auto;
+	background:#808080;
+}
+
+.navegacion ul{
+	list-style:none;
+}
+
+.menu > li {
+	position:relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding:15px 20px;
+	color:#DCDCDC;
+	font-family:'Open sans';
+	text-decoration:none;
+	
+	
+}
+
+.menu li a:hover{
+	color:#7B68EE ;
+	transition: all .3s;
+}
+
+.submenu1{
+	position: absolute;
+	background:#DCDCDC;
+	width:120%;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 1.5s;
+	
+}
+.submenu1 li a{
+	display: block;
+	padding:15px;
+	color:#7B68EE;
+	font-family:'Open sans';
+	text-decoration:none;	
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity:1;
+	width:95px;
+}
+
+.submenu2{
+	position:absolute;
+	background:#DCDCDC;
+	width:120%;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 1.5s;
+	
+}
+
+.submenu2 li a{
+	display: block;
+	padding:15px;
+	color:#7B68EE;
+	font-family:'Open sans';
+	text-decoration:none;	
+	
+}
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity:1;
+	width:95px;
+}
+.submenu3{
+	position: absolute;
+	background:#DCDCDC;
+	width:120%;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 1.5s;
+}
+
+.submenu3 li a{
+	display: block;
+	padding:15px;
+	color:#7B68EE;
+	font-family:'Open sans';
+	text-decoration:none;	
+}
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity:1;
+	width:95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
